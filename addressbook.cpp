@@ -147,7 +147,7 @@ void AddressBookController::openBook() {
 // asks the user their name and makes a string with the name + '.txt'. if the file exists, it reads the contents
 // and stores in addressBook, otherwise makes a new file to add the new addressbook and store it
     // Ask the user for their name
-    std::cout << "Welcome! Enter you name (Make sure you enter the same name everytime to see you address book!): ";
+    std::cout << "Welcome! Enter you name (Make sure you enter the same name everytime to see your address book!): ";
     std::cin >> userFile;
     userFile += ".txt";
 
